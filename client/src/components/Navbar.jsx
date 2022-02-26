@@ -11,7 +11,7 @@ const Navbar = ({ address }) => {
             alt="logo"
             style={{ width: 30, height: 25, marginRight: 5 }}
           />
-          Decentragram
+          DVideo
         </h3>
         <p className="text-muted">ADD: {address}</p>
       </div>
@@ -20,4 +20,3 @@ const Navbar = ({ address }) => {
 };
 
 export default Navbar;
-
