@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import getContract from "./getWeb3";
 import Web3 from 'web3';
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 const App = () => {
 
@@ -28,9 +29,9 @@ const App = () => {
     }
   }
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
